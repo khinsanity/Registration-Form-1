@@ -1,96 +1,74 @@
 <!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Registration</title>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Registration Form</title>
     <link href="style.css" rel="stylesheet" type="text/css" />
   </head>
   <body>
-    <script src="script.js"></script>
-    
-  </body>
-</html>
-
     <h1>Create an Account</h1>
 
-     <div id="reg-form"> 
-     	<form action="" method="">
-     		   
-     		  <label for="first-name">First Name:</label>
-     		  <input type="text" name="first" placeholder="Your name" required>
+    <div id="reg-form"> 
+      <form action="" method="">
+        <label for="first-name">First Name:</label>
+        <input type="text" name="first" placeholder="Your name" required>
 
-     		  <label for="last-name">Last Name:</label>
-     		  <input type="text" name="last-name" placeholder="Last name" required>
-
-
-
+        <label for="last-name">Last Name:</label>
+        <input type="text" name="last-name" placeholder="Last name" required>
 
         <div>
-        	<label for="gender-male">Male </label>
-        	<input type="radio" name="gender-choice" value="choice-1">
+          <label for="gender-male">Male</label>
+          <input type="radio" name="gender-choice" value="choice-1">
         
-       
-        	<label for="gender-female">Female</label>
-        	<input type="radio" name="gender-choice" value="choice-2">
+          <label for="gender-female">Female</label>
+          <input type="radio" name="gender-choice" value="choice-2">
 
-        	<label for="gender-female">Other</label>
-        	<input type="radio" name="gender-choice" value="choice-3 ">
-
+          <label for="gender-other">Other</label>
+          <input type="radio" name="gender-choice" value="choice-3">
         </div>
 
         <div>
-          
-          <label for="email">Email</label>
-          <input type="email" name="email" placeholder="xzy@email.com">
-
-        <div>
-
-          <label for="password">Password</label>
-          <input type="Password" name="password" placeholder="Password">
-
-          <label for="confirm-password">Confirm Password</label>
-          <input type="confirm-password" name="confirm-password">
-        
-
+          <label for="email">Email:</label>
+          <input type="email" name="email" placeholder="xyz@example.com">
         </div>
 
         <div>
+          <label for="password">Password:</label>
+          <input type="password" name="password" placeholder="Password">
 
-             <label for="Month">Birthday</label>
-             <select name="Month"> 
-              <option value="0" selected disabled>Month</option>
-               <option value="Jan">January</option>
-               <option value="feb">Febuary</option>
-               <option value="march">March</option>
-               <option value="april">April</option>
-               <option value="may">May</option>
-               <option value="june">June</option>
-               <option value="july">July</option>
-               <option value="aug">August</option>
-               <option value="sept">September</option>
-               <option value="oct">October</option>
-               <option value="nov">November</option>
-               <option value="dec">December</option>
-             </select>
-                    
+          <label for="confirm-password">Confirm Password:</label>
+          <input type="password" name="confirm-password" placeholder="Confirm Password">
         </div>
 
-        <label form="agree">I agree to all the conditions of the form</label>
+        <div>
+          <label for="birthday-month">Birthday:</label>
+          <select name="birthday-month"> 
+            <option value="0" selected disabled>Month</option>
+            <option value="Jan">January</option>
+            <option value="Feb">February</option>
+            <option value="Mar">March</option>
+            <option value="Apr">April</option>
+            <option value="May">May</option>
+            <option value="Jun">June</option>
+            <option value="Jul">July</option>
+            <option value="Aug">August</option>
+            <option value="Sep">September</option>
+            <option value="Oct">October</option>
+            <option value="Nov">November</option>
+            <option value="Dec">December</option>
+          </select>
+        </div>
+
+        <label for="agree">I agree to all the conditions of the form</label>
         <input type="checkbox" name="agree">
 
-
         <div>
-        <button type="submit">Submit</button>
-
+          <button type="submit">Submit</button>
         </div>
+      </form>
+    </div>
 
-
-
-        </div>
-
-     	</form>
-     </div>
-
-</body>
+    <script src="script.js"></script>
+  </body>
 </html>
