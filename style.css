@@ -1,0 +1,57 @@
+body {
+    font-family: arial, sans-serif;
+    background-color: #f2f2f2;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 500px;
+    margin: 0 auto;
+    padding: 20px;
+    background-color: #fff;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+h1 {
+    text-align: center;
+}
+
+#reg-form label {
+    display: block;
+    margin-bottom: 10px;
+
+}
+
+#reg-form input[type="text"],
+#reg-form input[type="email"],
+#reg-form input[type="password"],
+#reg-form select {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    
+}
+
+#reg-form .gender {
+    margin-bottom: 20px;
+}
+
+#reg-form .birthday {
+    margin-bottom: 20px;
+}
+
+#reg-form button[type="submit"] {
+    background-color: #4CAF50;
+    color: #fff;
+    border: none;
+    padding: 10px 20px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+#reg-form button[type="submit"]:hover {
+    background-color: #45a049;
+}
